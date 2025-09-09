@@ -6,6 +6,21 @@
 .form-container {
     display: flex;
     justify-content: center;
-    justify-items: center;
+    position: absolute;
+    margin: 15% 43%;
     width: 300px;
+}
+
+legend {
+    font-size: 20px;
+    text-align: center;
+}
+
+fieldset {
+    border: 5px solid black;
+
+}
+
+input {
+    width: 200px;
 }
