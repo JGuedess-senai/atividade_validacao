@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Cadastro de Funcionários</title>
+</head>
+
+<body>
+        <fieldset class="form-container">
+            <legend>Formulário Cadastro</legend>
+            <form action="action_page.html" onsubmit=" return validacampos()">
+                <label>CPF:</label>
+                <input type="text" id="cpf" placeholder="ex:000.000.000-00" required><br><br>
+
+                <label>Nome:</label>
+                <input type="text" id="nome" placeholder="Digte seu Nome" required><br><br>
+
+                <label>Endereço:</label>
+                <input type="text" placeholder="Digite seu Endereço" required><br><br>
+
+                <label>Cidade:</label>
+                <input type="text" placeholder="Digite aqui sua Cidade" required><br><br>
+
+                <label>Estado:</label>
+                <input type="text" placeholder="Digite aqui seu Estado" required><br><br>
+
+                <label>Nascimento:</label>
+                <input type="date" required><br><br>
+
+                <label>Salário:</label>
+                <input type="text" placeholder="Digite aqui seu Estado" required><br><br>
+
+                <label>E-mail:</label>
+                <input type="text" id="email" placeholder="Digite aqui seu Estado" required><br><br>
+
+                <div class="botoes">
+                    <input type="submit" value="Enviar dados">
+                    <input type="reset" value="Limpar campos">
+                </div>
+            </form>
+        </fieldset>
+
+    <script src="_javascript/main.js"></script>
+</body>
+
+</html>
