@@ -1,14 +1,28 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(252, 252, 183);
 }
 
 .form-container {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin: 15% 43%;
-    width: 300px;
+    margin: 50px 50px;
+    border: 5px solid black;
+    width: 350px;
+    background-color: white;
+}
+
+.form-container label {
+    font-size: 15px;
+}
+
+.form-container input {
+    margin: 0 10px;
+    width: 200px;
+    padding: 8px;
 }
 
 legend {
@@ -22,5 +36,16 @@ fieldset {
 }
 
 input {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.botoes input {
+    padding: 10px;
 }
